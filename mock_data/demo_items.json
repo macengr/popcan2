@@ -1,0 +1,2 @@
+{ "responses": [{"query_id":"1", "item_type":"pizza box", "material":"cardboard", "location":"Pittsburgh", "recyclable":"no"},
+{"query_id":"2", "item_type":"pop can", "material":"aluminum", "location":"Pittsburgh", "recyclable":"yes", "instructions":"Item must be clean, loose, and placed in a blue container not exceeding 35 gallons, blue bag, or City-issued container."}]}

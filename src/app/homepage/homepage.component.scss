@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #0F0C4C;
+    font-family: 'Poppins', sans-serif;
+
+    p {
+      text-transform: uppercase;
+      text-align: right;
+      color: #1AC1BC;
+      margin-right: 20px;
+    }
+  
+    .title {
+      text-align: center;
+      background-image: url(../../assets/images/Popcanlogo.svg);
+      background-position: center;
+      height: 333px;
+      background-repeat: no-repeat;
+  
+ 
+      p {
+        padding-top: 120px;
+        color: gray;
+        margin: auto;
+      }
+  
+    }
+  
+    .enter-zip-code {
+      text-align: center;
+
+      h1 {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 23px;
+        margin: 0 auto;
+      }
+    
+      h2 {
+        margin-top: 83px;
+        color: #1AC1BC;
+        font-size: 19px;
+        margin-bottom: 0px;
+        text-transform: uppercase;
+      }
+  
+      textarea {
+        margin-top: 0px;
+        width: 261px;
+        height: 32px;
+        background-color: #0F0C4C;
+        color: #FFFFFF;
+        font-size: 26px;
+        font-weight: bold;
+        border: none;
+      }
+  
+      textarea::placeholder {
+        color: #FFFFFF;  
+      }
+
+      #location {
+        color: #4C48FF;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      button {
+        margin-top: 33px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 324px;
+        height: 54px;
+        border-radius: 6px;
+        background-color: #1AC1BC;
+        color: #FFFFFF;
+      }
+  
+    }
+  
+  }
+   
