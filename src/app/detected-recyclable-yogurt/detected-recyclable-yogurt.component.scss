@@ -1,12 +1,11 @@
 .container {
     
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 10px;
     
     .photo-container {
         img {
             max-width: 350px;
-    
         }
     }
     
@@ -23,8 +22,8 @@
             height: 21px;
             margin-left: 10px;
             border-radius: 4px;
-            background-color: #46D07D;
-            color: white;
+            background-color: #0F0C4C;
+            color: #FFFFFF;
             margin-top: 10px;
             margin-bottom: 10px;
         }
@@ -34,8 +33,7 @@
         max-width: 350px;
         padding: 5px;
         border-radius: 6px;
-        background-color: #FDF41F;
-        color: #000000;
+        color:#0F0C4C;
     
         h3 {
             font-size: 12px;

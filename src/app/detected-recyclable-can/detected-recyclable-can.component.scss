@@ -1,5 +1,5 @@
 .container {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 10px;
 
     .photo-container {
@@ -13,7 +13,8 @@
         display: flex;
         align-items: center;
     
-        button {
+        .tabs {
+            padding-top: 5px;
             text-align: center;
             text-transform: uppercase;
             font-size: 10px;
@@ -21,15 +22,14 @@
             height: 21px;
             margin-left: 10px;
             border-radius: 4px;
-            background-color: #46D07D;
+            background-color: pink;
             color: white;
         }
     }
     
     .protip {
         max-width: 350px;
-        background-color: #FDF41F;
-        color: #000000;
+        color: #0F0C4C;
         padding: 5px;
         border-radius: 6px;
         h3 {
