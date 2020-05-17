@@ -5,11 +5,10 @@
     <h1>In the real app, the user takes a photo</h1>
     <h2>In our demo, choose a recyclable:</h2>
     <ol>
-        <li [routerLink]="['/popcan']">Diet Pop Can</li>
+        <li [routerLink]="['/popcan']" (click)="hitClassifier()">Diet Pop Can</li>
         <li [routerLink]="['/yogurt']">
             Yogurt Container
         </li>
         <li [routerLink]="['/pizzabox']">Pizza Box</li>
     </ol>
 </div>
-

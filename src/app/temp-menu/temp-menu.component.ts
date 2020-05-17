@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../http.service';
 
 @Component({
   selector: 'app-temp-menu',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TempMenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _http: HttpService) { }
+
+  item: object;
 
   ngOnInit() {
+  }
+
+  hitClassifier() {
+    this._http.queryClassifier().subscribe(data => {
+      this.item = data;
+      console.log(this.item);
+    });
   }
 
 }

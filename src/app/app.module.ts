@@ -13,6 +13,7 @@ import { DetectedRecyclableYogurtComponent } from './detected-recyclable-yogurt/
 import { DetectedNotRecyclableComponent } from './detected-not-recyclable/detected-not-recyclable.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { MatIconModule } from '@angular/material/icon';
     RouterModule,
     BrowserAnimationsModule,
     MatIconModule,
+    HttpClientModule,
  ],
   providers: [],
   bootstrap: [AppComponent]
